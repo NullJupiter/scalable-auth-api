@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 const authRoute = require('./routes/auth');
 app.use('/api/user', authRoute);
 
-const postRoute = require('./routes/posts');
-app.use('/api/posts', postRoute);
+const infoRoute = require('./routes/info');
+app.use('/api/info', infoRoute);
 
 // listen on port
 app.listen(process.env.PORT, () => {

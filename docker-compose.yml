@@ -5,8 +5,6 @@ services:
     container_name: mongodb
     volumes:
       - ./database:/data/db
-    ports:
-      - 27017:27017
     command: [--auth]
     restart: unless-stopped
 
