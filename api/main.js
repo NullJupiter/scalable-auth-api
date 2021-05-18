@@ -25,6 +25,6 @@ const infoRoute = require('./routes/info');
 app.use('/api/info', infoRoute);
 
 // listen on port
-app.listen(process.env.PORT, () => {
+app.listen(process.env.API_INTERNAL_PORT, () => {
     console.log(`Listening on port ${process.env.PORT}!`);
 });
