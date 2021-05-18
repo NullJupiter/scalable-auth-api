@@ -1,4 +1,4 @@
-# scalable-auth-api with NodeJS
+# scalable-auth-api with NodeJS and MongoDB
 
 ### First Steps
 - Install NodeJS
