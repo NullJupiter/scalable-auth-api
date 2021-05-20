@@ -19,6 +19,7 @@ services:
 #      - DB_IP=mongodb
 #      - DB_PORT=27017
 #      - API_INTERNAL_PORT=3000
+#      - TOKEN_SECRET=<jwt_token_secret>
     volumes:
       - ./api:/home/node/app
     ports:
